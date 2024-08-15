@@ -1,6 +1,7 @@
 class PAR {
 
-    static socket_port = 5555;
+    static server_address = "192.168.1.18";
+    static server_port = 5555;
     
     static d_RECEIVED = false;
 

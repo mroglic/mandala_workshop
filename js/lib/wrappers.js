@@ -55,7 +55,7 @@ class DrawingApp {
     connect(callback) {
         this.init();
 
-        this.sio = io.connect('http://127.0.0.1:' + PAR.socket_port);
+        this.sio = io.connect(PAR.server_address + ":" + PAR.server_port);
 
         this.sio.on('connect', () => {
             console.log('Connected to server');
