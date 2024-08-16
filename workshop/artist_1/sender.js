@@ -9,7 +9,7 @@ function setup() {
 
   DA.connect(draw_all);
 
-  //noLoop(); // need to loop for mouseDragged to work
+  noLoop(); // need to loop for mouseDragged to work
 }
 
 function draw_all() {
