@@ -18,7 +18,7 @@ function drawSymbol() {
     CD.line(x + 80, y, x + 140, y + h);
   }
   // rect(420, CD.height / 2, 111, 444);
-  // rect(530, CD.height / 2, 100, 100);
+  // rect(530, CD.height / 2, 100, 100);l
 
   CD.sendAllCommands();
 }
